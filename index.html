@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+    <title>Google</title>
+</head>
+
+<body>
+    <div class="all_content">
+    
+    <!-- Bovenste bar -->
+    <div class="nav_bar">
+        <div class="nav_bar_items">
+        <div><a href="https://accounts.google.com/b/0/AddMailService">Gmail</a></div>
+        <div><a href="https://www.google.nl/imghp?hl=nl&tab=wi&authuser=0&ogbl">Afbeeldingen</a></div>
+        <div class="apps">
+            <span><img id="grid_img" src="img/3x3grid.png" alt="Google Apps"></span>
+            <div class="dropdown_apps">
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://myaccount.google.com/intro?utm_source=OGB&tab=wk1&utm_medium=app">Account</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://www.google.nl/webhp?tab=ww&authuser=0">Zoeken</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://www.google.nl/maps?hl=nl&tab=wl&authuser=0">Maps</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://www.youtube.com/?gl=NL&tab=w1">YouTube</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://play.google.com/store?hl=nl&tab=w8">Play</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://news.google.com/?tab=wn&hl=nl&gl=NL&ceid=NL:nl">Nieuws</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://accounts.google.com/b/0/AddMailService">Gmail</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://contacts.google.com/?hl=nl&tab=wC">Contactpers.</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://drive.google.com/drive/u/0/my-drive">Drive</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://calendar.google.com/calendar/r?tab=wc">Agenda</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://translate.google.nl/?hl=nl&tab=wT&authuser=0">Vertalen</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://photos.google.com/?tab=wq&pageId=none">Foto's</a></div>
+                <div><img id="app_imgs" src="img/icons/zoeken.png"><br><a href="https://www.google.nl/shopping?hl=nl&source=og&tab=wf&authuser=0">Shopping</a></div>
+            </div>
+        </div>
+        <div><Button onclick="googleInloggen()" >Inloggen</Button></div>
+    </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div><img id="logo" src="img/main_logo.png"></div>
+        <div class="zoekbalk">
+                <div>
+                    <img class="zoek_icon" src="img/search_icon.png">
+                </div>
+                <form autocomplete="off">
+                    <input title="Zoeken" type="text" id="searchbar">
+                </form>
+                <div>
+                    <img class="spraak_zoeken" src="img/google_mic.png">
+                </div>
+        </div>
+        <div class="button_set">
+            <div><button onclick="googleSearch()" >Google zoeken</button></div>
+            <div><button onclick="ikDoeEenGok()" >Ik doe een gok</button></div>
+        </div>
+        <div class="aangeboden_door">
+            <p> Google aangeboden door: Guillermo Latumahina</p>
+        </div>
+    </div>
+    
+
+    <!-- Footers -->
+    <div class="footers">
+    <div class="footer1">
+        <div class="nederland">
+            <p>Nederland</p>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="links">
+            <div><a href="https://ads.google.com/intl/nl_nl/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Adverteren</a></div>
+            <div><a href="https://www.google.nl/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Bedrijf</a></div>
+            <div><a href="https://about.google/intl/nl_nl/?utm_source=google-NL&utm_medium=referral&utm_campaign=hp-footer&fg=1">Over</a></div>
+            <div><a href="https://www.google.com/search/howsearchworks/?fg=1">Hoe Google Zoeken werkt</a></div>
+
+        </div>
+        <div class="rechts">
+                <div><a href="https://policies.google.com/privacy?fg=1">Privacy</a></div>
+                <div><a href="https://policies.google.com/terms?fg=1">Voorwaarden</a></div>
+                <div><a href="#">Instellingen</a></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
