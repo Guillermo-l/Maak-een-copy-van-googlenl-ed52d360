@@ -28,7 +28,7 @@ body a {
 .nav_bar_items {
     font-family: arial, sans-serif;
     padding-top: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,17 +54,25 @@ body a {
     color: rgba(0, 0, 0, 0.87);
     display: none;
     flex-wrap: wrap;
-    width: 300px;
+    width: 225px;
 }
 
 .apps:hover .dropdown_apps {
+    position: absolute;
+    right: 20px;
     display: flex;
+    border: 0, 75px solid black;
+    background-color: white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+    margin-top: 15px;
 }
 
 .dropdown_apps div {
-    width: 75px;
-    padding-right: 20px;
-    padding-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    text-align: center;
 }
 
 #app_imgs {
@@ -106,7 +114,6 @@ body a {
 
 #logo {
     margin-bottom: 40px;
-
 }
 
 .zoekbalk {
@@ -144,10 +151,10 @@ body a {
     width: 24px;
     margin: 12px 18px 12px 12px;
 }
+
 .spraak_zoeken:hover {
     cursor: pointer;
 }
-
 
 .button_set {
     display: flex;
@@ -159,7 +166,7 @@ body a {
 }
 
 .button_set button:hover {
-    border: solid 1px rgb(116, 118, 121);
+    border: solid 1px rgb(202, 204, 207);
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
